@@ -1,2 +1,2 @@
-content:
-  name: vetal
+server:
+  port: 7777
