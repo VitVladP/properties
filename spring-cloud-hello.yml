@@ -1,1 +1,7 @@
 message: wow its work
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
