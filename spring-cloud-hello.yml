@@ -1,1 +1,6 @@
 message: wtf
+
+info:
+  app:
+    description: this is test info
+    version: 1.0.0
