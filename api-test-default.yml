@@ -1,0 +1,6 @@
+message: test
+
+info:
+  app:
+    description: second wersion
+    version: 3.0.0
