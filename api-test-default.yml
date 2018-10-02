@@ -2,5 +2,5 @@ message: test
 
 info:
   app:
-    description: test version
+    description: default version
     version: 3.0.0
