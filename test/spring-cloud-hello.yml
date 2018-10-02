@@ -1,0 +1,6 @@
+message: wtf
+
+info:
+  app:
+    description: version of my project is
+    version: 1.0.0
