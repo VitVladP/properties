@@ -1,4 +1,5 @@
-message: test
+message:
+  info: test
 
 info:
   app:
