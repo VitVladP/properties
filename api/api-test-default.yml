@@ -1,0 +1,9 @@
+message: wow it's test
+
+server:
+  port: 7777
+
+info:
+  app:
+    description: default version TEST
+    version: 3.0.0

@@ -1,0 +1,6 @@
+message: Demo
+
+info:
+  app:
+    description: version of my project is Demo
+    version: 1.0.0
