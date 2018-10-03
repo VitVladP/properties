@@ -1,0 +1,19 @@
+server:
+  port: 5000
+  context-path: /uaa
+
+api_service_url: "http://api:8080"
+
+spring:
+  redis:
+    host: redis
+    port: 6379
+  auth:
+    client:
+      id: "hendi-client"
+      secret: "{noop}hendi-secret"
+
+hystrix:
+  command:
+    default:
+      fallback.enabled: false
