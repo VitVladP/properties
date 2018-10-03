@@ -1,6 +1,10 @@
 message:
   info: wow it's
 
+
+server:
+  port: 7777
+
 info:
   app:
     description: default version
