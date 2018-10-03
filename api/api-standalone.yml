@@ -1,5 +1,8 @@
 message: statde alone
 
+server:
+  port: 7777
+
 info:
   app:
     description: version of my project is statde alone

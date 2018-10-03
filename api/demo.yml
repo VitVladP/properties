@@ -1,5 +1,6 @@
 message: Demo
-
+server:
+  port: 7777
 info:
   app:
     description: version of my project is Demo
