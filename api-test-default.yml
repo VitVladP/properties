@@ -1,6 +1,4 @@
-message:
-  info: wow it's
-
+message: wow it's
 
 server:
   port: 7777
