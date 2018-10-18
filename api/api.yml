@@ -73,6 +73,7 @@ minec:
 
 logging:
   level:
+    config: /logs/api.log
     org.springframework.security: DEBUG
 
 ad:
