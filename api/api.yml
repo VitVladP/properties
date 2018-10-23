@@ -74,7 +74,7 @@ minec:
 logging:
   config: classpath:log4j2.yml
   level:
-    org.springframework.security: DEBUG
+    org.springframework.security: INFO
 
 ad:
   domain: "local"

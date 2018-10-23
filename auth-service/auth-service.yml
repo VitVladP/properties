@@ -20,6 +20,4 @@ hystrix:
       fallback.enabled: false
 
 logging:
-  logging:
-    lorg.springframework.security: INFO
   config: classpath:log4j2.yml
