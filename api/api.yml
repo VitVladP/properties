@@ -33,7 +33,7 @@ spring:
     driverClassName: org.postgresql.Driver
     jdbcUrl: jdbc:postgresql://minec-api-db:5432/postgres
     username: postgres
-    password: postgres
+    password: postg
   jpa:
     database: default
     show-sql: true
