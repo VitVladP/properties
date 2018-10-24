@@ -81,10 +81,6 @@ ad:
   url: "ldap://localhost:8389/"
   dc: "dc=springframework,dc=org"
 
-management:
-    security:
-           enabled: false
-
 jasperreports:
   generation:
     folder: /tmp
@@ -103,3 +99,8 @@ zakupki-gov-ru-ftp:
     1: /fcs_regions/Moskva/notifications/currMonth/
     2: /fcs_regions/Moskva/notifications/prevMonth/
     3: /fcs_regions/Moskva/notifications/
+
+management:
+  health:
+    jms:
+      enabled: false
