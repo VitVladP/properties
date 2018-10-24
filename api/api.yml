@@ -32,7 +32,7 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     jdbcUrl: jdbc:postgresql://minec-api-db:5432/postgres
-    username: postgres
+    username: pos
     password: postg
   jpa:
     database: default
@@ -47,8 +47,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   flyway:
     url: jdbc:postgresql://minec-api-db:5432/postgres
-    user: postgres
-    password: postgres
+    user: post
+    password: postg
     #location: ["classpath:db/migration", "classpath:db/prod"]
   data:
     web:
