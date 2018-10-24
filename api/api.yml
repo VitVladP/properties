@@ -48,7 +48,7 @@ spring:
   flyway:
     url: jdbc:postgresql://minec-api-db:5432/postgres
     user: postgres
-    password: postgres
+    password: post
     #location: ["classpath:db/migration", "classpath:db/prod"]
   data:
     web:
