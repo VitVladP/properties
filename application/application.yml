@@ -13,10 +13,3 @@ hystrix:
 ribbon:
   ConnectTimeout: 5000
   ReadTimeout: 5000
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    serviceUrl:
-      defaultZone: http://registry:8761/eureka/

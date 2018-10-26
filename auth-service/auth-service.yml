@@ -18,6 +18,3 @@ hystrix:
   command:
     default:
       fallback.enabled: false
-
-logging:
-  config: classpath:log4j2.yml
