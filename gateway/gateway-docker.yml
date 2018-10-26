@@ -1,0 +1,57 @@
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+ribbon:
+  eureka:
+    enable: false
+  isSecure: false
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+zuul:
+  ribbonIsolationStrategy: THREAD
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+    max-total-connections: 200
+    max-per-route-connections: 20
+    time-unit: MILLISECONDS
+    time-to-live: 10000
+  routes:
+    api:
+      path: /api/**
+      service-id: api
+      stripPrefix: true
+      sensitiveHeaders:
+    auth-service:
+      path: /uaa/**
+      service-id: auth-service
+      stripPrefix: true
+      sensitiveHeaders:
+  debug:
+    request: true
+  include-debug-header: true
+
+server:
+  port: 4000
+  use-forward-headers: true
+
+api:
+  ribbon:
+    ConnectTimeout: 60000
+    ReadTimeout: 60000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+
+auth-service:
+  ribbon:
+    ConnectTimeout: 60000
+    ReadTimeout: 60000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
