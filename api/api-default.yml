@@ -71,7 +71,7 @@ minec:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
 logging:
-  config: classpath:log4j2.yml
+#  config: classpath:log4j2.yml
   level:
     org.springframework.security: DEBUG
 
