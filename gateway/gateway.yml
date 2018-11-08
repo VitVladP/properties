@@ -55,3 +55,6 @@ auth-service:
     ReadTimeout: 60000
     MaxTotalHttpConnections: 500
     MaxConnectionsPerHost: 100
+
+logging:
+  config: classpath:log4j2.xml
