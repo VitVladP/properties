@@ -55,8 +55,3 @@ auth-service:
     ReadTimeout: 60000
     MaxTotalHttpConnections: 500
     MaxConnectionsPerHost: 100
-
-logging:
-  logging:
-  level: info
-  file: /var/logs/gat.log
