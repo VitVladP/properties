@@ -1,5 +1,5 @@
 server:
-  port: 3000
+  port: 5000
   context-path: /uaa
 
 api_service_url: "http://api:8080"
